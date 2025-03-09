@@ -15,7 +15,8 @@ h2 {
   padding-bottom: 5px;
 }
 
-ul, ol {
+ul,
+ol {
   background-color: #ffffff;
   padding: 10px;
   border-radius: 5px;
@@ -46,4 +47,3 @@ ol ol li {
 ol ol ol li {
   color: #ffb703; /* Màu vàng */
 }
-
