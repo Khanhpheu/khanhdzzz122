@@ -1,15 +1,49 @@
-*{
-    border: 1px solid black;
-}
-body{
-    text-align: center;
+body {
+  background-color: #f5f5dc; /* Màu nền be nhẹ */
+  font-family: Arial, sans-serif;
+  color: #333; /* Màu chữ chính */
 }
 
-h1{
-
-    width: 100%;
-    color: red;
-    font-size: 20px;
-    /* margin: 0 auto;  */
-    text-align: center;
+h1 {
+  color: #d62828; /* Màu đỏ đậm */
+  text-align: center;
 }
+
+h2 {
+  color: #005f73; /* Màu xanh đậm */
+  border-bottom: 2px solid #005f73;
+  padding-bottom: 5px;
+}
+
+ul, ol {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+ul li {
+  color: #9b2226; /* Màu cam đậm */
+}
+
+ol li {
+  color: #008000; /* Màu xanh lá */
+}
+
+ol[type="I"] > li {
+  font-weight: bold;
+  color: #6a0572; /* Màu tím đậm */
+}
+
+ol ol li {
+  color: #023047; /* Màu xanh đậm */
+}
+
+ol ol ol li {
+  color: #ffb703; /* Màu vàng */
+}
+
