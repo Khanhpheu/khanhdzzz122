@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cách Luộc trứng</title>
+    <title>Tất Cả Bot Telegram</title>
     <link rel="stylesheet" href="mau.css" />
-  </head>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body>
-    <h1>How to luộc trứng</h1>
-    <h2>Nguyên liệu:</h2>
-    <ul>
-      <li>Trứng gà: 10 quả</li>
-      <li>Nước lọc: 1000ml</li>
-      <li>Nồi</li>
-      <li>Bếp ga</li>
-    </ul>
+    <style>
+        /* Style for the Telegram image */
+        .telegram-image {
+            width: 300px; /* Initial width */
+            transition: transform 0.3s ease; /* Smooth transition */
+            cursor: pointer; /* Add cursor style */
+        }
 
-    <h2>Cách chế biến:</h2>
-    <ol>
-      <li>Sơ chế trứng: Rửa sạch shit</li>
-      <li>Bật bếp</li>
-      <li>Cho nồi lên bếp</li>
-      <li>Ch nước + trứng</li>
-      <li>Luộc 6 phút</li>
-      <li>Tắt bếp</li>
-    </ol>
-  </body>
+        /* Style for hovering over the Telegram image */
+        .telegram-image:hover {
+            transform: scale(1.2); /* Scale the image by 1.2 on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Frame around Bot Checkcode Section -->
+        <section class="main-content">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeRFCEaUK2N2yK-1jF3digwJm3Iy_kU5VZunvLJvlIYCufEt7Za98fFI&s"
+                alt="Telegram Bot" width="300" class="telegram-image">
+            <h1>Tất Cả Bot Telegram</h1>
+            <nav>
+                <a class="bot-link" href="https://t.me/botcheckcodekhanhpheu_bot">BOT CHECK CODE XWORD</a>
+                <br>
+                <a class="bot-link" href="https://t.me/checkmoneygolike_bot">BOT CHECK XU GOLIKE</a>
+            </nav>
+        </section>
+
+        <!-- Cột liên hệ (bubble) -->
+        <a href="https://t.me/ADM_khanhne" class="contact">
+            <i class="fas fa-comment-dots"></i>
+        </a>
+
+        <!-- Airplane that falls on the page-->
+    </div>
+    <script>
+        const body = document.querySelector('body');
+        const colors = ['#9b59b6', '#3498db', '#e74c3c', '#f39c12', '#2ecc71'];
+        let colorIndex = 0;
+
+        function changeBackground() {
+            const color1 = colors[colorIndex % colors.length];
+            const color2 = colors[(colorIndex + 1) % colors.length];
+            const color3 = colors[(colorIndex + 2) % colors.length];
+            body.style.background = `linear-gradient(45deg, ${color1}, ${color2}, ${color3})`;
+            colorIndex++;
+        }
+                setInterval(changeBackground, 5000);
+
+        // Initial background set
+        changeBackground();
+    </script>
+</body>
+
 </html>
